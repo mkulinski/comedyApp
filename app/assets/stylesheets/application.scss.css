@@ -1,0 +1,6 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+test {
+	border-bottom: 100px;
+}
