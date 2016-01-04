@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
-gem 'simple_form'
+gem 'simple_form', '~> 3.1.0.rc1'
 gem 'devise', '>= 3.2.4'
 
 group :doc do
