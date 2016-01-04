@@ -59,6 +59,9 @@ h1, h2, h3, h4, h5, h6 {
 .sign-search {
   width: 45%;
 }
+.inner-form {
+  width: 50%;
+}
 @media (max-width: 928px) {
   #srch-term, .input-group-btn {
     display: none;
