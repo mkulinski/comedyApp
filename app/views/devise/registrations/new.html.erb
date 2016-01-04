@@ -6,19 +6,19 @@
   <%= f.error_notification %>
 <br />
   <div class="form-inputs">
-    <%= f.input :email, required: true, autofocus: true, placeholder: 'Email' %>
+    <%= f.input :email, required: true, autofocus: true, placeholder: 'Email', label: false %>
     <br />
-    <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length), placeholder: 'Password' %>
+    <%= f.input :password, required: true, placeholder: 'Password', label: false %>
     <br />
-    <%= f.input :password_confirmation, required: true, placeholder: 'Re-Enter Password' %>
+    <%= f.input :password_confirmation, required: true, placeholder: 'Re-Enter Password', label: false %>
   </div>
 <br />
   <div class="form-actions">
     <%= f.button :submit, "Sign up", :class => 'btn btn-primary' %>
+    <%= render "devise/shared/links" %>
   </div>
 <% end %>
 <br />
-<%= render "devise/shared/links" %>
 </div>
 </div>
 
