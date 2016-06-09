@@ -1,5 +1,3 @@
-== README
-
-*Comedy-App
+== Comedy-App
 
 Application built in rails to showcase comedy talent.
